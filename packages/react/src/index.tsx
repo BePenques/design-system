@@ -1,4 +1,5 @@
 export * from './components/Box'
+export * from './components/Text'
 // // import { colors } from '@ignite-ui/tokens'
 // import { styled } from './styles'
 
