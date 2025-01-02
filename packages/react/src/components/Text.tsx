@@ -2,7 +2,7 @@ import { styled } from '@stitches/react'
 import { ComponentProps, ElementType } from 'react'
 
 export const Text = styled('p', {
-  fontFamily: '$defualt',
+  fontFamily: '$default',
   lineHeight: '$base',
   margin: 0,
   color: 'gray100',
