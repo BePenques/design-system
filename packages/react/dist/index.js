@@ -79,6 +79,7 @@ var Box = (0, import_react.styled)("div", {
   backgroundColor: "$gray800",
   border: "1px solid $gray600"
 });
+Box.displayName = "Box";
 
 // src/components/Text.tsx
 var import_react2 = require("@stitches/react");
@@ -108,6 +109,7 @@ var Text = (0, import_react2.styled)("p", {
     size: "md"
   }
 });
+Text.displayName = "Text";
 
 // src/components/Heading.tsx
 var import_react3 = require("@stitches/react");
@@ -132,6 +134,7 @@ var Heading = (0, import_react3.styled)("h2", {
     size: "md"
   }
 });
+Heading.displayName = "Heading";
 
 // src/components/Avatar/index.tsx
 var import_phosphor_react = require("phosphor-react");
@@ -276,6 +279,7 @@ function Avatar2(props) {
     /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AvatarFallback, { delayMs: 600, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_phosphor_react.User, {}) })
   ] });
 }
+Avatar2.displayName = "Avatar";
 
 // src/components/Button.tsx
 var Button = styled4("button", {
@@ -349,6 +353,7 @@ var Button = styled4("button", {
     size: "md"
   }
 });
+Button.displayName = "Button";
 
 // src/components/TextInput/styles.ts
 var TextInputContainer = styled4("div", {
@@ -401,6 +406,7 @@ function TextInput(_a) {
     /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Input, __spreadValues({}, props))
   ] });
 }
+TextInput.displayName = "TextInput";
 
 // src/components/TextArea.tsx
 var import_react5 = require("@stitches/react");
@@ -430,6 +436,7 @@ var TextArea = (0, import_react5.styled)("textarea", {
     color: "$gray400"
   }
 });
+TextArea.displayName = "TextArea";
 
 // src/components/Checkbox/index.tsx
 var import_phosphor_react2 = require("phosphor-react");
@@ -484,6 +491,7 @@ var import_jsx_runtime3 = require("react/jsx-runtime");
 function CheckBox(props) {
   return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(CheckboxContainer, __spreadProps(__spreadValues({}, props), { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(CheckboxIndicator, { asChild: true, children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(import_phosphor_react2.Check, { weight: "bold" }) }) }));
 }
+CheckBox.displayName = "CheckBox";
 
 // src/components/MultiStep/styles.ts
 var MultiStepContainer = styled4("div", {});
@@ -527,6 +535,7 @@ function MultiStep({ size, currentStep = 1 }) {
     }) })
   ] });
 }
+MultiStep.displayName = "MultiStep";
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Avatar,

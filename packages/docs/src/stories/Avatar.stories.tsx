@@ -8,6 +8,13 @@ export default {
     src: 'http://github.com/BePenques.png',
     alt: 'Betiza Penques',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
