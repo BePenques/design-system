@@ -67,7 +67,15 @@ __export(src_exports, {
   MultiStep: () => MultiStep,
   Text: () => Text,
   TextArea: () => TextArea,
-  TextInput: () => TextInput
+  TextInput: () => TextInput,
+  config: () => config,
+  createTheme: () => createTheme,
+  css: () => css,
+  getCssText: () => getCssText,
+  globalCss: () => globalCss,
+  keyframes: () => keyframes,
+  styled: () => styled4,
+  theme: () => theme
 });
 module.exports = __toCommonJS(src_exports);
 
@@ -88,7 +96,7 @@ var Text = (0, import_react2.styled)("p", {
   lineHeight: "$base",
   margin: 0,
   color: "gray100",
-  variant: {
+  variants: {
     size: {
       xxs: { fontSize: "$xxs" },
       xs: { fontSize: "$xs" },
@@ -546,5 +554,13 @@ MultiStep.displayName = "MultiStep";
   MultiStep,
   Text,
   TextArea,
-  TextInput
+  TextInput,
+  config,
+  createTheme,
+  css,
+  getCssText,
+  globalCss,
+  keyframes,
+  styled,
+  theme
 });

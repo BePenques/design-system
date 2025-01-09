@@ -47,7 +47,7 @@ var Text = styled2("p", {
   lineHeight: "$base",
   margin: 0,
   color: "gray100",
-  variant: {
+  variants: {
     size: {
       xxs: { fontSize: "$xxs" },
       xs: { fontSize: "$xs" },
@@ -504,5 +504,13 @@ export {
   MultiStep,
   Text,
   TextArea,
-  TextInput
+  TextInput,
+  config,
+  createTheme,
+  css,
+  getCssText,
+  globalCss,
+  keyframes,
+  styled4 as styled,
+  theme
 };
