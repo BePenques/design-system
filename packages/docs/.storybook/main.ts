@@ -26,6 +26,10 @@ const config: StorybookConfig = {
     autodocs: true,
   },
   viteFinal: (config, {configType})=>{
+
+    config.build = config.build || {};
+    config.build.outDir = 'storybook-static';
+
     if(configType === 'PRODUCTION'){
       config.base = '/design-system/'
     }
