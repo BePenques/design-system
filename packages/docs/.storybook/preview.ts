@@ -11,7 +11,10 @@ const preview: Preview = {
     },
     docs: {
       theme: themes.dark
-    }
+    },
+    options: {
+      basename: '/design-system', 
+    },
   },
 };
 

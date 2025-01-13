@@ -1,1 +1,0 @@
-import{N as o}from"./index-XMC6OVDS.js";import"./index-D7uoVdV3.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-C9rmetsa.js";const m={parameters:{controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}},docs:{theme:o.dark}}};export{m as default};
