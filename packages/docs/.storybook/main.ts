@@ -1,6 +1,5 @@
 import type { StorybookConfig } from "@storybook/react-vite";
 import { join, dirname } from "path";
-import { addons } from '@storybook/addons';
 
 function getAbsolutePath(value: string): any {
   return dirname(require.resolve(join(value, "package.json")));
@@ -25,12 +24,12 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true,
   },
-  viteFinal: (config, {configType})=>{
+  viteFinal: (config)=>{
 
     config.build = config.build || {};
     config.build.outDir = 'storybook-static';
 
-    if(configType === 'PRODUCTION'){
+    if(process.env.STORYBOOK_DEPLOY === 'true'){
       config.base = '/design-system/'
     }
     return config;
