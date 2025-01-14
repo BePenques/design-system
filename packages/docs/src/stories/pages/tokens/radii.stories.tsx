@@ -1,6 +1,6 @@
 import { Meta } from '@storybook/react'
 import { TokensGrid } from '../../../components/TokensGrid'
-import { radii } from '@ignite-ui/tokens'
+import { radii } from '@bepenques-designsys/tokens'
 import { getContrast } from 'polished'
 
 export default {

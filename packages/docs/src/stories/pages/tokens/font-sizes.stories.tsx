@@ -1,6 +1,6 @@
 import { Meta } from '@storybook/react'
 import { TokensGrid } from '../../../components/TokensGrid'
-import { fontSizes } from '@ignite-ui/tokens'
+import { fontSizes } from '@bepenques-designsys/tokens'
 import { getContrast } from 'polished'
 
 export default {

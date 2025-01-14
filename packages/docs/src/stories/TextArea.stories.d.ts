@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react';
-import { TextAreaProps } from '@ignite-ui/react';
+import { TextAreaProps } from '@bepenques-designsys/react';
 declare const _default: Meta<TextAreaProps>;
 export default _default;
 export declare const Primary: StoryObj<TextAreaProps>;

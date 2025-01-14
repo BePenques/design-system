@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react';
-import { TextInputProps } from '@ignite-ui/react';
+import { TextInputProps } from '@bepenques-designsys/react';
 declare const _default: Meta<TextInputProps>;
 export default _default;
 export declare const Primary: StoryObj<TextInputProps>;

@@ -1,5 +1,5 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { Box, Text, TextArea } from '@ignite-ui/react';
+import { Box, Text, TextArea } from '@bepenques-designsys/react';
 export default {
     title: 'Form/TextArea',
     component: TextArea,

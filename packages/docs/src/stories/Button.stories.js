@@ -1,5 +1,5 @@
 import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
-import { Button } from '@ignite-ui/react';
+import { Button } from '@bepenques-designsys/react';
 import { ArrowRight } from 'phosphor-react';
 export default {
     title: 'Form/Button',

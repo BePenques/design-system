@@ -1,5 +1,5 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-import { Box, Text } from '@ignite-ui/react';
+import { Box, Text } from '@bepenques-designsys/react';
 export default {
     title: 'Surfaces/Box',
     component: Box,

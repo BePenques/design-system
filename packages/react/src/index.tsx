@@ -8,7 +8,7 @@ export * from './components/TextArea'
 export * from './components/Checkbox'
 export * from './components/MultiStep'
 export * from './styles'
-// // import { colors } from '@ignite-ui/tokens'
+// // import { colors } from '@bepenques-designsys/tokens'
 // import { styled } from './styles'
 
 // export type ButtonProps = {

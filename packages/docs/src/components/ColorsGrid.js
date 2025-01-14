@@ -1,5 +1,5 @@
 import { jsxs as _jsxs, jsx as _jsx } from "react/jsx-runtime";
-import { colors } from '@ignite-ui/tokens';
+import { colors } from '@bepenques-designsys/tokens';
 import { getContrast } from 'polished';
 export function ColorsGrid() {
     return Object.entries(colors).map(([key, color]) => {

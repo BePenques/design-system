@@ -1,6 +1,6 @@
 import { Meta } from '@storybook/react'
 import { TokensGrid } from '../../../components/TokensGrid'
-import { space } from '@ignite-ui/tokens'
+import { space } from '@bepenques-designsys/tokens'
 import { getContrast } from 'polished'
 
 export default {

@@ -1,4 +1,4 @@
-import { Heading } from '@ignite-ui/react';
+import { Heading } from '@bepenques-designsys/react';
 export default {
     title: 'Typography/Heading',
     component: Heading,

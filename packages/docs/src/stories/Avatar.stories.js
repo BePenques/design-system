@@ -1,4 +1,4 @@
-import { Avatar } from '@ignite-ui/react';
+import { Avatar } from '@bepenques-designsys/react';
 export default {
     title: 'Data display/Avatar',
     component: Avatar,

@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/react",
-  "version": "1.0.0",
+  "name": "@bepenques-designsys/react",
+  "version": "1.0.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -10,9 +10,9 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@bepenques-designsys/eslint-config": "*",
+    "@bepenques-designsys/tokens": "*",
+    "@bepenques-designsys/ts-config": "*",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "react": "^18.2.0",

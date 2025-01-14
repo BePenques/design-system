@@ -1,5 +1,5 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { Box, Text, CheckBox } from '@ignite-ui/react';
+import { Box, Text, CheckBox } from '@bepenques-designsys/react';
 export default {
     title: 'Form/Checkbox',
     component: CheckBox,

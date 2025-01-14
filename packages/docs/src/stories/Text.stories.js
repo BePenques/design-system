@@ -1,4 +1,4 @@
-import { Text } from '@ignite-ui/react';
+import { Text } from '@bepenques-designsys/react';
 export default {
     title: 'Typography/Text',
     component: Text,
