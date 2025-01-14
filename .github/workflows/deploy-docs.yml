@@ -24,6 +24,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env:
+          TURBO_TOKEN: o2PsWTNWsrMUX5WOYEBN5sQD
+          TURBO_TEAM: betiza-barreira-penques-projects
 
 
       - name: Deploy storybook
