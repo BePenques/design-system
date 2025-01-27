@@ -26,12 +26,12 @@ const config: StorybookConfig = {
   },
   viteFinal: (config)=>{
 
-    config.build = config.build || {};
-    config.build.outDir = 'storybook-static';
+    // config.build = config.build || {};
+    // config.build.outDir = 'storybook-static';
 
-    if(process.env.STORYBOOK_DEPLOY === 'true'){
+    // if(process.env.STORYBOOK_DEPLOY === 'true'){
       config.base = '/design-system/'
-    }
+    // }
     return config;
   }
 };
