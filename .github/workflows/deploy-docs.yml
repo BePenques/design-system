@@ -27,7 +27,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: o2PsWTNWsrMUX5WOYEBN5sQD
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: betiza-barreira-penques-projects
 
 
